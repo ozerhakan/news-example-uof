@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "DYG.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DYG.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DYG.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DYG.Core/1.0.0": {
+      "type": "project",
+      "path": "../DYG.Core/DYG.Core.csproj",
+      "msbuildProject": "../DYG.Core/DYG.Core.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "DYG.Core >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/hakanozer/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Services/DYG.Services.csproj",
+      "projectName": "DYG.Services",
+      "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Services/DYG.Services.csproj",
+      "packagesPath": "/Users/hakanozer/.nuget/packages/",
+      "outputPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Services/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/hakanozer/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj": {
+              "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

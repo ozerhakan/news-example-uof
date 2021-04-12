@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "DYG.Services/1.0.0": {
+        "dependencies": {
+          "DYG.Core": "1.0.0"
+        },
+        "runtime": {
+          "DYG.Services.dll": {}
+        }
+      },
+      "DYG.Core/1.0.0": {
+        "runtime": {
+          "DYG.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DYG.Services/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DYG.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

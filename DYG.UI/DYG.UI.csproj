@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DYG.Core\DYG.Core.csproj" />
+      <ProjectReference Include="..\DYG.Data\DYG.Data.csproj" />
+      <ProjectReference Include="..\DYG.Services\DYG.Services.csproj" />
+    </ItemGroup>
+
+</Project>
