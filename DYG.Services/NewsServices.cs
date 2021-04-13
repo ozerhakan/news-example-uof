@@ -8,16 +8,14 @@ namespace DYG.Services
     public class NewsServices : INewsServices
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly INewsRepository _newsRepository;
 
-        public NewsServices(INewsRepository newsRepository, IUnitOfWork unitOfWork)
+        public NewsServices(IUnitOfWork unitOfWork)
         {
-            _newsRepository = newsRepository;
             _unitOfWork = unitOfWork;
         }
         public async Task<News> CreateNews(News news)
         {
-            await _newsRepository.AddAsync(news);
+            await _unitOfWork.NewsRepository.AddAsync(news);
             await _unitOfWork.Commit();
             return news;
         }

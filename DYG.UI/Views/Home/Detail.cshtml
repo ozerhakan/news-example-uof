@@ -1,0 +1,61 @@
+@using DYG.UI.Domain.Helpers
+@model DYG.UI.DTO.NewsDTO
+@{
+    var news = Model;
+}
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>@news.Title</title>
+</head>
+<body>
+<div class="container bootdey">
+<div class="col-md-12">
+<section class="panel">
+      <div class="panel-body">
+          <div class="col-md-6">
+              <span> <strong>Url:</strong>  @Helper.GetUrl(news.MainCategory.Slug,news.Title,news.Id)</span>
+              <br>
+              <span>@news.CreatedTime | Güncellenme Tarihi: @news.PublishedTime</span>
+              <div class="pro-img-details">
+                  <img width="550" height="380" src="@news.MainArtUrl" alt="">
+              </div>
+          </div>
+          <div class="col-md-6">
+              <h4 class="pro-d-title">@news.Title</h4>
+              <p>
+                  @news.Spot
+              </p>
+              <p>
+                  @foreach (var content in news.Story.Contents)
+                  {
+                      @if (content._t == "MongoDbTextContent")
+                      {
+                          <p> @content.Text</p>
+                      }
+                      @if (content._t == "MongoDbImageContent")
+                      {
+                          <img width="300" height="300" src="@content.ImageUrl">
+                      }
+                  }
+              </p>
+              <div class="product_meta">
+                  <span class="tagged_as">
+                      <strong>Tags:</strong>
+                      @foreach (var keyword in news.NewsKeywords)
+                      {
+                          <a rel="tag" href="#">@keyword</a>
+                      }
+                  </span>
+                  <br>
+                  <span class="post-in"><strong>Categories: @news.MainCategory.Title</strong></span>
+              </div>
+          </div>
+      </div>
+  </section>
+  </div>
+  </div>
+</body>
+</html>

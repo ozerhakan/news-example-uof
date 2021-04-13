@@ -1,8 +1,23 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@using DYG.UI.Domain.Helpers
+@model List<DYG.UI.DTO.NewsDTO>
+@{
+    var newsList = Model;
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<div class="container pb-5 mt-n2 mt-md-n3">
+    <div class="row">
+        <div class="col-xl-9 col-md-8">
+           @foreach(var news in newsList)
+    {
+        <div class="d-sm-flex justify-content-between my-4 pb-4 border-bottom">
+            <div class="media d-block d-sm-flex text-center text-sm-left">
+                <a class="cart-item-thumb mx-auto mr-sm-4"><img width="300" height="300" src="@news.MainArtUrl" alt="Product"></a>
+                <div class="media-body pt-3">
+                    <h3 class="product-card-title font-weight-semibold border-0 pb-0"><a href="@Url.Action("Detail","Home",new { mainCategory= news.MainCategory?.Slug,title= news.Title.ToLink(), id= news.Id})">@news.Title</a></h3>
+                    <div class="font-size-sm"><span class="text-muted mr-2">@news.Spot</span></div>
+                </div>
+            </div>
+        </div>
+    }
+        </div>
+    </div>
+    </div>

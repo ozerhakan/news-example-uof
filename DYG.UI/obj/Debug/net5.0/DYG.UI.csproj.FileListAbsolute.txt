@@ -55,3 +55,7 @@
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/ref/DYG.UI.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.pdb
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.genruntimeconfig.cache
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/case_study.data.json
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/AutoMapper.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Detail.cshtml.g.cs
