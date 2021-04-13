@@ -8,6 +8,7 @@ using DYG.Core.Services;
 using DYG.Data;
 using DYG.Data.Repositories;
 using DYG.Services;
+using DYG.UI.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -55,17 +56,16 @@ namespace DYG.UI
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-
             app.UseRouting();
-
             app.UseAuthorization();
-
+            
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+            app.UseMiddleware<GlobalExceptionMiddleware>();
         }
     }
 }

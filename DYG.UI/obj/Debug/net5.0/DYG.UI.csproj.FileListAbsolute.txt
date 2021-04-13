@@ -59,3 +59,16 @@
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/AutoMapper.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Detail.cshtml.g.cs
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Newtonsoft.Json.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.AspNetCore.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Extensions.Hosting.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Extensions.Logging.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Formatting.Compact.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Settings.Configuration.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.Console.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.Debug.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.File.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.RollingFile.dll

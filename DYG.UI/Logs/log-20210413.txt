@@ -1,0 +1,60 @@
+2021-04-13 14:40:03.384 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-13 14:40:03.815 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-13 14:40:03.816 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-13 14:40:03.816 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-13 14:40:03.816 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-13 14:40:03.816 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI"
+2021-04-13 14:40:04.475 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-13 14:40:04.511 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"DYG.UI.Controllers.HomeController.Index (DYG.UI)"'
+2021-04-13 14:40:04.551 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "DYG.UI.Controllers.HomeController" ("DYG.UI").
+2021-04-13 14:40:04.864 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "DYG.UI.Controllers.HomeController.Index (DYG.UI)" in 306.8012ms
+2021-04-13 14:40:04.866 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"DYG.UI.Controllers.HomeController.Index (DYG.UI)"'
+2021-04-13 14:40:04.869 +03:00 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.Text.Json.JsonException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. Path: $[1].Story.Contents[0] | LineNumber: 82 | BytePositionInLine: 12.
+ ---> System.Text.Json.JsonReaderException: The JSON object contains a trailing comma at the end which is not supported in this mode. Change the reader options. LineNumber: 82 | BytePositionInLine: 12.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextToken(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ConsumeNextTokenOrRollback(Byte marker)
+   at System.Text.Json.Utf8JsonReader.ReadSingleSegment()
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.JsonPropertyInfo`1.ReadJsonAndSetMember(Object obj, ReadStack& state, Utf8JsonReader& reader)
+   at System.Text.Json.Serialization.Converters.ObjectDefaultConverter`1.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.Converters.IEnumerableDefaultConverter`2.OnTryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, TCollection& value)
+   at System.Text.Json.Serialization.JsonConverter`1.TryRead(Utf8JsonReader& reader, Type typeToConvert, JsonSerializerOptions options, ReadStack& state, T& value)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   --- End of inner exception stack trace ---
+   at System.Text.Json.ThrowHelper.ReThrowWithPath(ReadStack& state, JsonReaderException ex)
+   at System.Text.Json.Serialization.JsonConverter`1.ReadCore(Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](JsonConverter jsonConverter, Utf8JsonReader& reader, JsonSerializerOptions options, ReadStack& state)
+   at System.Text.Json.JsonSerializer.ReadCore[TValue](Utf8JsonReader& reader, Type returnType, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, Type returnType, JsonSerializerOptions options)
+   at System.Text.Json.JsonSerializer.Deserialize[TValue](String json, JsonSerializerOptions options)
+   at DYG.UI.Controllers.HomeController.Index() in /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/Controllers/HomeController.cs:line 55
+   at lambda_method1(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-13 14:40:04.941 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 468.4707ms

@@ -7,10 +7,12 @@ using System.Threading.Tasks;
 using AutoMapper;
 using DYG.Core;
 using DYG.Core.Services;
+using DYG.UI.Attribute;
 using DYG.UI.DTO;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using DYG.UI.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace DYG.UI.Controllers
 {
@@ -19,12 +21,14 @@ namespace DYG.UI.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly INewsServices _newsServices;
         private readonly IMapper _mapper;
+        private readonly IConfiguration _configuration;
 
-        public HomeController(INewsServices newsServices, ILogger<HomeController> logger , IMapper mapper)
+        public HomeController(INewsServices newsServices, ILogger<HomeController> logger , IConfiguration configuration, IMapper mapper)
         {
             _logger = logger;
             _newsServices = newsServices;
             _mapper = mapper;
+            _configuration = configuration;
         }
 
         public IActionResult Index()
@@ -48,27 +52,28 @@ namespace DYG.UI.Controllers
             // var newsData = _mapper.Map<NewsDTO, News>(input);
             //
             // _newsServices.CreateNews(newsData);
-            var myJsonString = System.IO.File.ReadAllText("/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/case_study.data.json");
-            List<NewsDTO> model = JsonSerializer.Deserialize<List<NewsDTO>>(myJsonString);
+            var fileToReadListText = System.IO.File.ReadAllText("/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/case_study.data.json");
+            List<NewsDTO> model = JsonSerializer.Deserialize<List<NewsDTO>>(fileToReadListText);
+            
             return View(model);
         }
 
         [Route("{mainCategory}/{title},{id}",Order = 1)]
+        [Cache(Key = "HomeDetailCache")]
         public IActionResult Detail(string mainCategory,string title, string id)
         {
             if (string.IsNullOrEmpty(id))
                 return RedirectPermanent("404");
 
             if (string.IsNullOrEmpty(mainCategory))
-                return RedirectPermanent("ntv.com.tr");
-            //(DYG.UI.Domain.Helpers.Helper.GetUrl(item.MainCategory.Slug,item.Title,item.Id)
+                return RedirectPermanent(_configuration.GetSection("GlobalOptions: NtvUrl").Value);
             
-            var myJsonString = System.IO.File.ReadAllText("/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/case_study.data.json");
-            List<NewsDTO> newsList = JsonSerializer.Deserialize<List<NewsDTO>>(myJsonString);
+            var fileToReadListText = System.IO.File.ReadAllText("/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/case_study.data.json");
+            var newsList = JsonSerializer.Deserialize<List<NewsDTO>>(fileToReadListText);
 
             var newsDetail = newsList.FirstOrDefault(news => news.Id == id);
             if (newsDetail == null)
-                return RedirectPermanent("ntv.com.tr");
+                return RedirectPermanent(_configuration.GetSection("GlobalOptions: NtvUrl").Value);
             
             return View(newsDetail);
         }
@@ -78,10 +83,5 @@ namespace DYG.UI.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
-        {
-            return View(new ErrorViewModel {RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier});
-        }
     }
 }
