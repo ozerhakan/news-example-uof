@@ -1399,6 +1399,9 @@
       "DYG.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
         "compile": {
           "bin/placeholder/DYG.Core.dll": {}
         },
@@ -1411,6 +1414,7 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "DYG.Core": "1.0.0",
+          "DYG.Interface": "1.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "MongoDB.Driver": "2.12.2"
         },
@@ -1421,11 +1425,42 @@
           "bin/placeholder/DYG.Data.dll": {}
         }
       },
+      "DYG.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "DYG.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DYG.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DYG.Domain.dll": {}
+        }
+      },
+      "DYG.Interface/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "DYG.Core": "1.0.0",
+          "DYG.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DYG.Interface.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DYG.Interface.dll": {}
+        }
+      },
       "DYG.Services/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "DYG.Core": "1.0.0"
+          "DYG.Core": "1.0.0",
+          "DYG.Domain": "1.0.0",
+          "DYG.Interface": "1.0.0"
         },
         "compile": {
           "bin/placeholder/DYG.Services.dll": {}
@@ -4996,6 +5031,16 @@
       "path": "../DYG.Data/DYG.Data.csproj",
       "msbuildProject": "../DYG.Data/DYG.Data.csproj"
     },
+    "DYG.Domain/1.0.0": {
+      "type": "project",
+      "path": "../DYG.Domain/DYG.Domain.csproj",
+      "msbuildProject": "../DYG.Domain/DYG.Domain.csproj"
+    },
+    "DYG.Interface/1.0.0": {
+      "type": "project",
+      "path": "../DYG.Interface/DYG.Interface.csproj",
+      "msbuildProject": "../DYG.Interface/DYG.Interface.csproj"
+    },
     "DYG.Services/1.0.0": {
       "type": "project",
       "path": "../DYG.Services/DYG.Services.csproj",
@@ -5004,8 +5049,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "AutoMapper >= 10.1.1",
-      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
       "DYG.Core >= 1.0.0",
       "DYG.Data >= 1.0.0",
       "DYG.Services >= 1.0.0",
@@ -5060,14 +5103,6 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
-          "AutoMapper": {
-            "target": "Package",
-            "version": "[10.1.1, )"
-          },
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-            "target": "Package",
-            "version": "[8.1.1, )"
-          },
           "Serilog.AspNetCore": {
             "target": "Package",
             "version": "[4.1.0, )"

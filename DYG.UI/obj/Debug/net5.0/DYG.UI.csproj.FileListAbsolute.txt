@@ -41,12 +41,7 @@
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.TagHelpers.output.cache
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.RazorCoreGenerate.cache
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Index.cshtml.g.cs
-/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Privacy.cshtml.g.cs
-/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Shared/Error.cshtml.g.cs
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Shared/_Layout.cshtml.g.cs
-/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
-/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/_ViewImports.cshtml.g.cs
-/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/_ViewStart.cshtml.g.cs
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.RazorTargetAssemblyInfo.cache
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.RazorTargetAssemblyInfo.cs
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/DYG.UI.Views.pdb
@@ -72,3 +67,9 @@
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.Debug.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.File.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/Serilog.Sinks.RollingFile.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Create.cshtml.g.cs
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/DYG.Interface.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/DYG.Domain.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/bin/Debug/net5.0/DYG.Interface.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.UI/obj/Debug/net5.0/Razor/Views/Home/Feed.cshtml.g.cs

@@ -25,8 +25,6 @@
     ".NETCoreApp,Version=v5.0": {
       "DYG.UI/1.0.0": {
         "dependencies": {
-          "AutoMapper": "10.1.1",
-          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "DYG.Core": "1.0.0",
           "DYG.Data": "1.0.0",
           "DYG.Services": "1.0.0",
@@ -1242,6 +1240,9 @@
         }
       },
       "DYG.Core/1.0.0": {
+        "dependencies": {
+          "MongoDB.Bson": "2.12.2"
+        },
         "runtime": {
           "DYG.Core.dll": {}
         },
@@ -1252,6 +1253,7 @@
       "DYG.Data/1.0.0": {
         "dependencies": {
           "DYG.Core": "1.0.0",
+          "DYG.Interface": "1.0.0",
           "Microsoft.Extensions.Hosting": "5.0.0",
           "MongoDB.Driver": "2.12.2"
         },
@@ -1262,9 +1264,36 @@
           "DYG.Data.dll": {}
         }
       },
+      "DYG.Domain/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "10.1.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
+          "DYG.Core": "1.0.0"
+        },
+        "runtime": {
+          "DYG.Domain.dll": {}
+        },
+        "compile": {
+          "DYG.Domain.dll": {}
+        }
+      },
+      "DYG.Interface/1.0.0": {
+        "dependencies": {
+          "DYG.Core": "1.0.0",
+          "DYG.Domain": "1.0.0"
+        },
+        "runtime": {
+          "DYG.Interface.dll": {}
+        },
+        "compile": {
+          "DYG.Interface.dll": {}
+        }
+      },
       "DYG.Services/1.0.0": {
         "dependencies": {
-          "DYG.Core": "1.0.0"
+          "DYG.Core": "1.0.0",
+          "DYG.Domain": "1.0.0",
+          "DYG.Interface": "1.0.0"
         },
         "runtime": {
           "DYG.Services.dll": {}
@@ -3636,6 +3665,16 @@
       "sha512": ""
     },
     "DYG.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DYG.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DYG.Interface/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

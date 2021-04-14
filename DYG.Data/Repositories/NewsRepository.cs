@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using DYG.Core;
-using DYG.Core.Repositories;
+using DYG.Interface.Repositories;
 
 namespace DYG.Data.Repositories
 {

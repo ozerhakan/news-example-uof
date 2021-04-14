@@ -13,3 +13,7 @@
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/obj/Debug/net5.0/DYG.Data.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/obj/Debug/net5.0/ref/DYG.Data.dll
 /Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/obj/Debug/net5.0/DYG.Data.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/bin/Debug/net5.0/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/bin/Debug/net5.0/DYG.Interface.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/bin/Debug/net5.0/DYG.Interface.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Data/bin/Debug/net5.0/DYG.Domain.pdb

@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -80,6 +86,9 @@
             "projectReferences": {
               "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj": {
                 "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj"
+              },
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj"
               }
             }
           }
@@ -103,6 +112,131 @@
               "version": "[2.12.2, )"
             }
           },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj",
+        "projectName": "DYG.Domain",
+        "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj",
+        "packagesPath": "/Users/hakanozer/.nuget/packages/",
+        "outputPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hakanozer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj",
+        "projectName": "DYG.Interface",
+        "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj",
+        "packagesPath": "/Users/hakanozer/.nuget/packages/",
+        "outputPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/hakanozer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj"
+              },
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -146,6 +280,12 @@
             "projectReferences": {
               "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj": {
                 "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj"
+              },
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/DYG.Domain.csproj"
+              },
+              "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj": {
+                "projectPath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Interface/DYG.Interface.csproj"
               }
             }
           }
@@ -222,14 +362,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AutoMapper": {
-              "target": "Package",
-              "version": "[10.1.1, )"
-            },
-            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
-              "target": "Package",
-              "version": "[8.1.1, )"
-            },
             "Serilog.AspNetCore": {
               "target": "Package",
               "version": "[4.1.0, )"

@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "vubp4tNntrnR819W1kjUtuEcnh09lIVjNwmrUjgLs4Ftm9RYEZFwM4BuwtAbdljZuyfI5RL2W+JfarJCS9ZZNQ==",
+  "dgSpecHash": "pRbFfkpvivcXNi9ttL4eEG4HEqUg6DYmstAbNGb6p6hI8Kn+jQKbHeJvF+PgExbl5LoUcu0lfMJtPRjCNSeV6w==",
   "success": true,
   "projectFilePath": "/Users/hakanozer/Development/Net/Net5/DYG/DYG.Core/DYG.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/hakanozer/.nuget/packages/mongodb.bson/2.12.2/mongodb.bson.2.12.2.nupkg.sha512",
+    "/Users/hakanozer/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

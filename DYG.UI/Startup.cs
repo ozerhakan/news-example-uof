@@ -1,18 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using DYG.Core;
-using DYG.Core.Repositories;
-using DYG.Core.Services;
 using DYG.Data;
 using DYG.Data.Repositories;
+using DYG.Interface;
+using DYG.Interface.Repositories;
+using DYG.Interface.Services;
 using DYG.Services;
 using DYG.UI.Middleware;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -37,7 +31,7 @@ namespace DYG.UI
             services.AddScoped<INewsRepository, NewsRepository>();
             services.AddControllersWithViews();
             services.AddAutoMapper(typeof(Startup));
-
+            services.AddMemoryCache();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

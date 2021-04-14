@@ -6,6 +6,8 @@
 
     <ItemGroup>
       <ProjectReference Include="..\DYG.Core\DYG.Core.csproj" />
+      <ProjectReference Include="..\DYG.Domain\DYG.Domain.csproj" />
+      <ProjectReference Include="..\DYG.Interface\DYG.Interface.csproj" />
     </ItemGroup>
 
 </Project>

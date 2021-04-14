@@ -1,0 +1,15 @@
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/DYG.Domain.deps.json
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/ref/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/DYG.Domain.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/DYG.Core.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/bin/Debug/net5.0/DYG.Core.pdb
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.csprojAssemblyReference.cache
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.AssemblyInfoInputs.cache
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.AssemblyInfo.cs
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.csproj.CoreCompileInputs.cache
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.csproj.CopyComplete
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/ref/DYG.Domain.dll
+/Users/hakanozer/Development/Net/Net5/DYG/DYG.Domain/obj/Debug/net5.0/DYG.Domain.pdb

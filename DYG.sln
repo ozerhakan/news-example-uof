@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYG.Data", "DYG.Data\DYG.Da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYG.Services", "DYG.Services\DYG.Services.csproj", "{A43E5E6F-B6CF-4E29-97A1-54DD82412F70}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYG.Domain", "DYG.Domain\DYG.Domain.csproj", "{C2099BD4-85FB-4E82-AD1E-642C07890115}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DYG.Interface", "DYG.Interface\DYG.Interface.csproj", "{13C22E3F-F7F7-4B5F-BD98-BCE6A0740896}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{A43E5E6F-B6CF-4E29-97A1-54DD82412F70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43E5E6F-B6CF-4E29-97A1-54DD82412F70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43E5E6F-B6CF-4E29-97A1-54DD82412F70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2099BD4-85FB-4E82-AD1E-642C07890115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2099BD4-85FB-4E82-AD1E-642C07890115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2099BD4-85FB-4E82-AD1E-642C07890115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2099BD4-85FB-4E82-AD1E-642C07890115}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C22E3F-F7F7-4B5F-BD98-BCE6A0740896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C22E3F-F7F7-4B5F-BD98-BCE6A0740896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C22E3F-F7F7-4B5F-BD98-BCE6A0740896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C22E3F-F7F7-4B5F-BD98-BCE6A0740896}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
