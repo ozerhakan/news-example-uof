@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "gNSj/EeQIyKmi2pTiQyn6pIQlYFO6XinGAhj2lpM01+Q8WD0NDld2wwFNnqWxjXgg5VsTKlKKzfwI12J/zcfhg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\mongodb.bson\\2.12.2\\mongodb.bson.2.12.2.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

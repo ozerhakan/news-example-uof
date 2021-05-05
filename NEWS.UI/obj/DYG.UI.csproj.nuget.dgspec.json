@@ -1,0 +1,409 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.UI\\DYG.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj",
+        "projectName": "DYG.Core",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\DYG.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\DYG.Data.csproj",
+        "projectName": "DYG.Data",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\DYG.Data.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj",
+        "projectName": "DYG.Domain",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj",
+        "projectName": "DYG.Interface",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\DYG.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\DYG.Services.csproj",
+        "projectName": "DYG.Services",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\DYG.Services.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Domain\\DYG.Domain.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Interface\\DYG.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.UI\\DYG.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.UI\\DYG.UI.csproj",
+        "projectName": "DYG.UI",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.UI\\DYG.UI.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Core\\DYG.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\DYG.Data.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Data\\DYG.Data.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\DYG.Services.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\DYG.Services\\DYG.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Serilog.Sinks.RollingFile": {
+              "target": "Package",
+              "version": "[3.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

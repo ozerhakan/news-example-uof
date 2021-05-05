@@ -1,0 +1,542 @@
+2021-04-14 00:54:49.149 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 00:54:49.736 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 00:54:49.736 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 00:54:49.737 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 00:54:49.737 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 00:54:49.737 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 00:54:50.207 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 00:54:50.232 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 00:54:50.279 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:54:50.494 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 00:54:50.734 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 245.0534ms.
+2021-04-14 00:54:50.736 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 455.75ms
+2021-04-14 00:54:50.736 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 00:54:50.741 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 534.6826ms
+2021-04-14 00:54:50.776 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/css/site.css - -
+2021-04-14 00:54:50.779 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - -
+2021-04-14 00:54:50.782 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 6, Name: "FileNotModified" }] The file "/css/site.css" was not modified
+2021-04-14 00:54:50.784 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/css/site.css - - - 304 - text/css 7.6344ms
+2021-04-14 00:54:50.810 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - -
+2021-04-14 00:54:50.844 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2021-04-14 00:54:50.844 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 6, Name: "FileNotModified" }] The file "/lib/bootstrap/dist/js/bootstrap.bundle.min.js" was not modified
+2021-04-14 00:54:50.845 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 304 - application/javascript 0.4384ms
+2021-04-14 00:54:50.847 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - -
+2021-04-14 00:54:50.847 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 6, Name: "FileNotModified" }] The file "/js/site.js" was not modified
+2021-04-14 00:54:50.847 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/js/site.js?v=BxFAw9RUJ1E4NycpKEjCNDeoSvr4RPHixdBq5wDnkeY - - - 304 - application/javascript 0.3827ms
+2021-04-14 00:54:50.855 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/lib/jquery/dist/jquery.min.js"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/lib/jquery/dist/jquery.min.js"'
+2021-04-14 00:54:50.857 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 70.2744ms
+2021-04-14 00:54:50.868 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/lib/bootstrap/dist/css/bootstrap.min.css"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css"'
+2021-04-14 00:54:50.868 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 155758 text/css 89.1942ms
+2021-04-14 00:54:55.292 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 00:54:55.292 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:54:55.301 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:54:55.315 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 00:54:55.322 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 7.7115ms.
+2021-04-14 00:54:55.322 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 20.2116ms
+2021-04-14 00:54:55.322 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:54:55.322 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 30.2428ms
+2021-04-14 00:55:36.140 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 00:55:36.141 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:36.141 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:55:36.143 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 00:55:36.165 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 22.7513ms.
+2021-04-14 00:55:36.166 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 24.5222ms
+2021-04-14 00:55:36.166 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:36.166 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 25.4454ms
+2021-04-14 00:55:36.277 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 00:55:36.280 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 00:55:36.280 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 2.9998ms
+2021-04-14 00:55:37.074 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 00:55:37.074 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:37.074 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:55:37.075 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 00:55:37.076 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 1.18ms.
+2021-04-14 00:55:37.076 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 1.8865ms
+2021-04-14 00:55:37.076 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:37.077 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 2.5554ms
+2021-04-14 00:55:37.147 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 00:55:37.247 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 00:55:37.247 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 100.0154ms
+2021-04-14 00:55:37.933 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 00:55:37.933 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:37.934 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:55:37.934 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 00:55:37.935 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 0.7569ms.
+2021-04-14 00:55:37.935 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 1.2798ms
+2021-04-14 00:55:37.935 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:37.935 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 1.8741ms
+2021-04-14 00:55:38.004 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 00:55:38.050 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 00:55:38.054 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 46.2311ms
+2021-04-14 00:55:38.401 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 00:55:38.401 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:38.402 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 00:55:38.402 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 00:55:38.403 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 0.7697ms.
+2021-04-14 00:55:38.403 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 1.3738ms
+2021-04-14 00:55:38.403 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 00:55:38.403 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 1.9790ms
+2021-04-14 00:55:38.470 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 00:55:38.472 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 00:55:38.473 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 1.9796ms
+2021-04-14 01:01:49.997 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 01:01:49.997 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 01:01:49.997 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 01:01:49.998 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 01:01:49.999 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 1.0445ms.
+2021-04-14 01:01:49.999 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 1.6333ms
+2021-04-14 01:01:49.999 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 01:01:49.999 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 2.1848ms
+2021-04-14 01:01:50.119 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 01:01:50.124 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 01:01:50.124 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 5.2610ms
+2021-04-14 01:01:50.659 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 01:01:50.659 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 01:01:50.659 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 01:01:50.660 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 01:01:50.660 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 0.7593ms.
+2021-04-14 01:01:50.660 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 1.3102ms
+2021-04-14 01:01:50.660 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 01:01:50.661 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 1.8706ms
+2021-04-14 01:01:50.733 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 01:01:50.736 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 01:01:50.736 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 3.0596ms
+2021-04-14 02:12:51.229 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 02:12:51.800 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 02:12:51.800 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 02:12:51.806 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 02:12:51.806 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 02:12:51.806 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 02:12:52.339 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 02:12:52.368 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:12:52.417 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:12:52.630 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 02:12:52.860 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 235.3471ms.
+2021-04-14 02:12:52.865 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 447.0527ms
+2021-04-14 02:12:52.865 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:12:52.868 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 531.7129ms
+2021-04-14 02:12:54.289 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 02:12:54.290 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:12:54.298 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:12:54.311 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 02:12:54.318 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 7.6687ms.
+2021-04-14 02:12:54.319 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 20.4348ms
+2021-04-14 02:12:54.319 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:12:54.319 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 29.7731ms
+2021-04-14 02:13:03.882 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 02:13:03.882 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:13:03.882 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:13:03.884 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 02:13:03.885 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 0.9167ms.
+2021-04-14 02:13:03.885 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 2.84ms
+2021-04-14 02:13:03.885 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:13:03.886 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 3.6477ms
+2021-04-14 02:13:03.992 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 02:13:04.009 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 2, Name: "FileServed" }] Sending file. Request path: '"/favicon.ico"'. Physical path: '"/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/wwwroot/favicon.ico"'
+2021-04-14 02:13:04.009 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 200 5430 image/x-icon 17.1846ms
+2021-04-14 02:24:21.741 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 02:24:22.265 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 02:24:22.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 02:24:22.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 02:24:22.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 02:24:22.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 02:24:22.493 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 02:24:22.521 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:24:22.567 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:24:22.780 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 02:24:23.009 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 237.8159ms.
+2021-04-14 02:24:23.010 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 442.0296ms
+2021-04-14 02:24:23.010 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:24:23.015 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 522.9955ms
+2021-04-14 02:24:26.455 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 02:24:26.456 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:24:26.463 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:25:05.014 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 02:25:05.023 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 10.9546ms.
+2021-04-14 02:25:05.026 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 38563.7123ms
+2021-04-14 02:25:05.026 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:25:05.029 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 38572.9534ms
+2021-04-14 02:40:29.088 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 02:40:29.605 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 02:40:29.605 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 02:40:29.605 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 02:40:29.605 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 02:40:29.605 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 02:40:30.264 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 02:40:30.292 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:40:30.343 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:40:30.564 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 02:40:30.798 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 239.84ms.
+2021-04-14 02:40:30.806 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 461.9095ms
+2021-04-14 02:40:30.806 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 02:40:30.811 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 548.0934ms
+2021-04-14 02:40:33.133 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 02:40:33.134 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:40:33.142 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 02:40:54.716 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 02:40:54.725 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 9.7761ms.
+2021-04-14 02:40:54.751 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 21609.5776ms
+2021-04-14 02:40:54.751 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 02:40:54.751 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 21618.7968ms
+2021-04-14 11:03:00.649 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:03:01.181 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:03:01.181 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:03:01.182 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:03:01.182 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:03:01.182 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:03:02.014 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:03:02.039 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:03:02.092 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:03:50.451 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:03:50.691 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:03:50.691 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:03:50.691 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:03:50.691 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:03:50.691 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:03:50.870 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:03:50.912 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:19:45.021 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:19:45.520 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:19:45.520 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:19:45.521 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:19:45.521 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:19:45.521 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:19:46.245 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:19:46.272 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:19:46.318 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:28:45.914 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:28:46.416 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:28:46.417 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:28:46.417 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:28:46.417 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:28:46.417 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:28:46.857 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:28:46.887 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:28:46.941 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:30:59.114 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:30:59.599 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:30:59.599 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:30:59.599 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:30:59.599 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:30:59.599 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:31:00.132 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:31:00.159 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:31:00.207 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:32:06.732 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 11:32:07.122 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 66914.2517ms
+2021-04-14 11:32:07.123 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:32:07.125 +03:00 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Home_Index.ExecuteAsync() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/Views/Home/Index.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 11:32:07.286 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 67157.4894ms
+2021-04-14 11:32:19.370 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/favicon.ico - -
+2021-04-14 11:32:22.796 +03:00 [Information] [Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware] [{ Id: 6, Name: "FileNotModified" }] The file "/favicon.ico" was not modified
+2021-04-14 11:32:22.797 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/favicon.ico - - - 304 - image/x-icon 3427.2331ms
+2021-04-14 11:38:49.909 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 11:38:50.184 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 11:38:50.184 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 11:38:50.184 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 11:38:50.184 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 11:38:50.184 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 11:38:50.866 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 11:38:50.908 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:38:50.960 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:38:51.368 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 11:38:51.488 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 120.014ms.
+2021-04-14 11:38:51.488 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 527.741ms
+2021-04-14 11:38:51.488 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 11:38:51.491 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 631.5893ms
+2021-04-14 11:38:57.103 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 11:38:57.103 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 11:38:57.114 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 11:38:57.130 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 11:38:57.149 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 20.2637ms.
+2021-04-14 11:38:57.149 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 35.0568ms
+2021-04-14 11:38:57.149 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 11:38:57.151 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 47.8554ms
+2021-04-14 12:06:57.551 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:06:58.061 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:06:58.061 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:06:58.062 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:06:58.062 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:06:58.062 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:06:58.361 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:06:58.388 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 12:06:58.438 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:06:58.669 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 12:06:58.782 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 116.36ms.
+2021-04-14 12:06:58.783 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 344.827ms
+2021-04-14 12:06:58.783 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 12:06:58.787 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 426.4075ms
+2021-04-14 12:07:08.952 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/privacy - -
+2021-04-14 12:07:08.954 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/privacy - - - 404 0 - 1.9242ms
+2021-04-14 12:07:14.824 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/Privacy - -
+2021-04-14 12:07:14.825 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/Privacy - - - 404 0 - 0.3829ms
+2021-04-14 12:07:44.757 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:07:45.265 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:07:45.265 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:07:45.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:07:45.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:07:45.266 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:07:45.898 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:07:45.927 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:07:45.979 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Privacy\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Privacy()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:07:55.200 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)" in 9217.8503ms
+2021-04-14 12:07:55.201 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:07:55.202 +03:00 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (Element '_id' does not match any field or property of class NEWS.Core.News.))
+ ---> System.AggregateException: One or more errors occurred. (Element '_id' does not match any field or property of class NEWS.Core.News.)
+ ---> System.FormatException: Element '_id' does not match any field or property of class NEWS.Core.News.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.Data.Repositories.Repository`1.GetAllAsync() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Data/Repositories/Repository.cs:line 39
+   at NEWS.Services.NewsServices.GetAllNews() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Services/NewsServices.cs:line 27
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.UI.Controllers.HomeController.Privacy() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/Controllers/HomeController.cs:line 66
+   at lambda_method1(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:07:55.329 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 9433.4009ms
+2021-04-14 12:08:10.817 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:08:11.320 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:08:11.320 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:08:11.320 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:08:11.321 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:08:11.321 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:08:11.570 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:08:11.601 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:08:11.650 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Privacy\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Privacy()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:08:13.389 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)" in 1734.9216ms
+2021-04-14 12:08:13.390 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:08:13.392 +03:00 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (Element '_id' does not match any field or property of class NEWS.Core.News.))
+ ---> System.AggregateException: One or more errors occurred. (Element '_id' does not match any field or property of class NEWS.Core.News.)
+ ---> System.FormatException: Element '_id' does not match any field or property of class NEWS.Core.News.
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.Data.Repositories.Repository`1.GetAllAsync() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Data/Repositories/Repository.cs:line 39
+   at NEWS.Services.NewsServices.GetAllNews() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Services/NewsServices.cs:line 27
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.UI.Controllers.HomeController.Privacy() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/Controllers/HomeController.cs:line 66
+   at lambda_method1(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:08:13.516 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 1947.7698ms
+2021-04-14 12:08:52.910 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:08:53.448 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:08:53.449 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:08:53.449 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:08:53.449 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:08:53.449 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:08:53.660 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:08:53.690 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:08:53.739 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Privacy\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Privacy()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:08:55.467 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)" in 1723.2995ms
+2021-04-14 12:08:55.467 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:08:55.469 +03:00 [Error] [Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware] [{ Id: 1, Name: "UnhandledException" }] An unhandled exception has occurred while executing the request.
+System.AggregateException: One or more errors occurred. (One or more errors occurred. (An error occurred while deserializing the _id property of class NEWS.Core.News: Cannot deserialize a 'String' from BsonType 'ObjectId'.))
+ ---> System.AggregateException: One or more errors occurred. (An error occurred while deserializing the _id property of class NEWS.Core.News: Cannot deserialize a 'String' from BsonType 'ObjectId'.)
+ ---> System.FormatException: An error occurred while deserializing the _id property of class NEWS.Core.News: Cannot deserialize a 'String' from BsonType 'ObjectId'.
+ ---> System.FormatException: Cannot deserialize a 'String' from BsonType 'ObjectId'.
+   at MongoDB.Bson.Serialization.Serializers.StringSerializer.DeserializeValue(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SealedClassSerializerBase`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.Serializers.SerializerBase`1.MongoDB.Bson.Serialization.IBsonSerializer.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize(IBsonSerializer serializer, BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   --- End of inner exception stack trace ---
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeMemberValue(BsonDeserializationContext context, BsonMemberMap memberMap)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.DeserializeClass(BsonDeserializationContext context)
+   at MongoDB.Bson.Serialization.BsonClassMapSerializer`1.Deserialize(BsonDeserializationContext context, BsonDeserializationArgs args)
+   at MongoDB.Bson.Serialization.IBsonSerializerExtensions.Deserialize[TValue](IBsonSerializer`1 serializer, BsonDeserializationContext context)
+   at MongoDB.Driver.Core.Operations.CursorBatchDeserializationHelper.DeserializeBatch[TDocument](RawBsonArray batch, IBsonSerializer`1 documentSerializer, MessageEncoderSettings messageEncoderSettings)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateFirstCursorBatch(BsonDocument cursorDocument)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.CreateCursor(IChannelSourceHandle channelSource, BsonDocument commandResult)
+   at MongoDB.Driver.Core.Operations.FindCommandOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(RetryableReadContext context, CancellationToken cancellationToken)
+   at MongoDB.Driver.Core.Operations.FindOperation`1.ExecuteAsync(IReadBinding binding, CancellationToken cancellationToken)
+   at MongoDB.Driver.OperationExecutor.ExecuteReadOperationAsync[TResult](IReadBinding binding, IReadOperation`1 operation, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.ExecuteReadOperationAsync[TResult](IClientSessionHandle session, IReadOperation`1 operation, ReadPreference readPreference, CancellationToken cancellationToken)
+   at MongoDB.Driver.MongoCollectionImpl`1.UsingImplicitSessionAsync[TResult](Func`2 funcAsync, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.Data.Repositories.Repository`1.GetAllAsync() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Data/Repositories/Repository.cs:line 39
+   at NEWS.Services.NewsServices.GetAllNews() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.Services/NewsServices.cs:line 27
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at System.Threading.Tasks.Task`1.get_Result()
+   at NEWS.UI.Controllers.HomeController.Privacy() in /Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI/Controllers/HomeController.cs:line 66
+   at lambda_method1(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-04-14 12:08:55.594 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 500 - text/html;+charset=utf-8 1935.2330ms
+2021-04-14 12:10:28.382 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:10:28.930 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:10:28.930 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:10:28.931 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:10:28.931 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:10:28.931 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:10:29.580 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:10:29.608 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Privacy (NEWS.UI)"'
+2021-04-14 12:10:29.679 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Privacy\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Privacy()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:14:15.482 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 12:14:15.757 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 12:14:15.757 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 12:14:15.757 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 12:14:15.757 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 12:14:15.757 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 12:14:16.351 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 12:14:16.396 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 12:14:16.449 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:14:16.840 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 12:14:16.947 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 107.4445ms.
+2021-04-14 12:14:16.947 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 497.6815ms
+2021-04-14 12:14:16.947 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 12:14:16.950 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 602.8107ms
+2021-04-14 12:14:38.390 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 12:14:38.391 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 12:14:38.402 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 12:14:38.416 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 12:14:38.437 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 22.1593ms.
+2021-04-14 12:14:38.438 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 35.4845ms
+2021-04-14 12:14:38.438 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 12:14:38.439 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 48.9122ms
+2021-04-14 13:14:19.519 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 13:14:20.152 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 13:14:20.152 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 13:14:20.152 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 13:14:20.152 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 13:14:20.153 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 13:14:20.501 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 13:14:20.528 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 13:14:20.577 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 13:14:43.182 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 13:14:43.282 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 103.7057ms.
+2021-04-14 13:14:43.282 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 22705.9479ms
+2021-04-14 13:14:43.283 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 13:14:43.285 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 22786.4404ms
+2021-04-14 13:14:49.431 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 13:14:49.431 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 13:14:49.439 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 13:14:49.453 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Detail".
+2021-04-14 13:14:49.468 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Detail" executed in 15.8015ms.
+2021-04-14 13:14:49.468 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)" in 28.0439ms
+2021-04-14 13:14:49.468 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 13:14:49.470 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - - - 200 - text/html;+charset=utf-8 38.6713ms
+2021-04-14 13:21:49.596 +03:00 [Information] [Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager] [{ Id: 62, Name: "UsingProfileAsKeyRepository" }] User profile is available. Using '"/Users/hakanozer/.aspnet/DataProtection-Keys"' as key repository; keys will not be encrypted at rest.
+2021-04-14 13:21:50.114 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "https://localhost:5001"
+2021-04-14 13:21:50.115 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Now listening on: "http://localhost:5000"
+2021-04-14 13:21:50.115 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Application started. Press Ctrl+C to shut down.
+2021-04-14 13:21:50.115 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Hosting environment: "Development"
+2021-04-14 13:21:50.115 +03:00 [Information] [Microsoft.Hosting.Lifetime] [] Content root path: "/Users/hakanozer/Development/Net/Net5/NEWS/NEWS.UI"
+2021-04-14 13:21:50.783 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/ - -
+2021-04-14 13:21:50.815 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 13:21:50.867 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Index\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Index()" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").
+2021-04-14 13:21:50.990 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 1, Name: "ViewResultExecuting" }] Executing ViewResult, running view "Index".
+2021-04-14 13:21:51.085 +03:00 [Information] [Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor] [{ Id: 4, Name: "ViewResultExecuted" }] Executed ViewResult - view "Index" executed in 104.5937ms.
+2021-04-14 13:21:51.085 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 2, Name: "ActionExecuted" }] Executed action "NEWS.UI.Controllers.HomeController.Index (NEWS.UI)" in 217.6591ms
+2021-04-14 13:21:51.085 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Id: 1, Name: "ExecutedEndpoint" }] Executed endpoint '"NEWS.UI.Controllers.HomeController.Index (NEWS.UI)"'
+2021-04-14 13:21:51.089 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 2, Name: "RequestFinished" }] Request finished HTTP/1.1 GET https://localhost:5001/ - - - 200 - text/html;+charset=utf-8 306.5939ms
+2021-04-14 13:21:52.857 +03:00 [Information] [Microsoft.AspNetCore.Hosting.Diagnostics] [{ Id: 1, Name: "RequestStarting" }] Request starting HTTP/1.1 GET https://localhost:5001/turkiye/davutoglu-ozel-kuvvetler-komutanligini-ziyaret-etti,d8691d3a-cc4e-45ce-9d6e-f2a5fa78dd49 - -
+2021-04-14 13:21:52.857 +03:00 [Information] [Microsoft.AspNetCore.Routing.EndpointMiddleware] [{ Name: "ExecutingEndpoint" }] Executing endpoint '"NEWS.UI.Controllers.HomeController.Detail (NEWS.UI)"'
+2021-04-14 13:21:52.866 +03:00 [Information] [Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker] [{ Id: 3, Name: "ControllerActionExecuting" }] Route matched with "{action = \"Detail\", controller = \"Home\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult Detail(System.String, System.String, System.String)" on controller "NEWS.UI.Controllers.HomeController" ("NEWS.UI").

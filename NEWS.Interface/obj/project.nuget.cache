@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "GhID+pu+FD0sCtbmQ3vswIDkVchCS3DwTfdTwUy6/Nq4/YEWyFV5IS6zcmvuKZWwErwFy56Oa9lDwXqOYGcwIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\mongodb.bson\\2.12.2\\mongodb.bson.2.12.2.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

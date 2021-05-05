@@ -1,0 +1,268 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Data\\NEWS.Data.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj",
+        "projectName": "NEWS.Core",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Data\\NEWS.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Data\\NEWS.Data.csproj",
+        "projectName": "NEWS.Data",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Data\\NEWS.Data.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.12.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\NEWS.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\NEWS.Domain.csproj",
+        "projectName": "NEWS.Domain",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\NEWS.Domain.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj",
+        "projectName": "NEWS.Interface",
+        "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\NEWS.Interface.csproj",
+        "packagesPath": "C:\\Users\\hakanozer.ILAB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Interface\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hakanozer.ILAB\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Core\\NEWS.Core.csproj"
+              },
+              "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\NEWS.Domain.csproj": {
+                "projectPath": "C:\\Users\\hakanozer.ILAB\\Desktop\\Example\\Github\\Demo\\NEWS.Domain\\NEWS.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
