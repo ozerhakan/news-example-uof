@@ -1,4 +1,4 @@
-# Demo
+# News Example
 In this project, I designed a basic infrastructure using a generic repository and UnitOfWork.
 I set a news site as an example reference
 
